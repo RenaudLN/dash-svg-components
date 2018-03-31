@@ -1,0 +1,16 @@
+{
+  "name": "dash-svg-components",
+  "version": "0.0.1",
+  "description": "Vanilla SVG components for Dash",
+  "main": "index.js",
+  "author": "jackdbd <jackdebidda@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cheerio": "0.20.0",
+    "dash-components-archetype-dev": "0.2.4",
+    "request": "2.72.0"
+  },
+  "dependencies": {
+    "dash-components-archetype": "0.2.4"
+  }
+}

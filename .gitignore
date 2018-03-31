@@ -1,0 +1,10 @@
+build/
+dist/
+dash_svg_components/metadata.json
+dash_svg_components/bundle.js*
+node_modules/
+.DS_Store
+lib/bundle.js
+lib/bundle.js.map
+.idea
+.vscode/
