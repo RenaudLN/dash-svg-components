@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "jackdbd <jackdebidda@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "prettier --write **/*.js"
+  },
   "devDependencies": {
     "cheerio": "0.20.0",
     "dash-components-archetype-dev": "0.2.4",
