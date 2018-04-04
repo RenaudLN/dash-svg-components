@@ -1,0 +1,619 @@
+{
+    "elements": [
+        {
+            "description": "The <a> SVG element defines a hyperlink.",
+            "tag": "<a>"
+        },
+        {
+            "description": "The <altGlyph> SVG element allows sophisticated selection of the glyphs used to render its child character data.",
+            "tag": "<altGlyph>"
+        },
+        {
+            "description": "The <altGlyphDef> SVG element defines a substitution representation for glyphs.",
+            "tag": "<altGlyphDef>"
+        },
+        {
+            "description": "The <altGlyphItem> element provides a set of candidates for glyph substitution by the <altGlyph> element.",
+            "tag": "<altGlyphItem>"
+        },
+        {
+            "description": "This element implements the SVGAnimateElement interface.",
+            "tag": "<animate>"
+        },
+        {
+            "description": "The <animateColor> SVG element specifies a color transformation over time.",
+            "tag": "<animateColor>"
+        },
+        {
+            "description": "The <animateMotion> element causes a referenced element to move along a motion path.",
+            "tag": "<animateMotion>"
+        },
+        {
+            "description": "The animateTransform element animates a transformation attribute on a target element, thereby allowing animations to control translation, scaling, rotation and/or skewing.",
+            "tag": "<animateTransform>"
+        },
+        {
+            "description": "The <circle> SVG element is an SVG basic shape, used to create circles based on a center point and a radius.",
+            "tag": "<circle>"
+        },
+        {
+            "description": "The <clipPath> SVG element defines a clipping path. A clipping path is used/referenced using the clip-path property.",
+            "tag": "<clipPath>"
+        },
+        {
+            "description": "The <color-profile> element allows describing the color profile used for the image.",
+            "tag": "<color-profile>"
+        },
+        {
+            "description": "The <cursor> SVG element can be used to define a platform-independent custom cursor. A recommended approach for defining a platform-independent custom cursor is to create a PNG image and define a cursor element that references the PNG image and identifies the exact position within the image which is the pointer position (i.e., the hot spot).",
+            "tag": "<cursor>"
+        },
+        {
+            "description": "SVG allows graphical objects to be defined for later reuse. It is recommended that, wherever possible, referenced elements be defined inside of a <defs> element. Objects created inside a <defs> element are not rendered immediately; instead, think of them as templates or macros created for future use.",
+            "tag": "<defs>"
+        },
+        {
+            "description": "Each container element or graphics element in an SVG drawing can supply a description string using the <desc> element where the description is text-only.",
+            "tag": "<desc>"
+        },
+        {
+            "description": "The <discard> SVG element allows authors to specify the time at which particular elements are to be discarded, thereby reducing the resources required by an SVG user agent. This is particularly useful to help SVG viewers conserve memory while displaying long-running documents.",
+            "tag": "<discard>"
+        },
+        {
+            "description": "The ellipse element is an SVG basic shape, used to create ellipses based on a center coordinate, and both their x and y radius.",
+            "tag": "<ellipse>"
+        },
+        {
+            "description": "The <feBlend> SVG filter primitive composes two objects together ruled by a certain blending mode. This is similar to what is known from image editing software when blending two layers. The mode is defined by the mode attribute.",
+            "tag": "<feBlend>"
+        },
+        {
+            "description": "The <feColorMatrix> SVG filter element changes colors based on a transformation matrix. Every pixel's color value (represented by an [R,G,B,A] vector) is matrix multiplied to create a new color.",
+            "tag": "<feColorMatrix>"
+        },
+        {
+            "description": "Th <feComponentTransfer> SVG filter primitive performs color-component-wise remapping of data for each pixel. It allows operations like brightness adjustment, contrast adjustment, color balance or thresholding.",
+            "tag": "<feComponentTransfer>"
+        },
+        {
+            "description": "This filter primitive performs the combination of two input images pixel-wise in image space using one of the Porter-Duff compositing operations: over, in, atop, out, xor and lighter. Additionally, a component-wise arithmetic operation (with the result clamped between [0..1]) can be applied.",
+            "tag": "<feComposite>"
+        },
+        {
+            "description": "The <feConvolveMatrix> SVG filter primitive applies a matrix convolution filter effect. A convolution combines pixels in the input image with neighboring pixels to produce a resulting image. A wide variety of imaging operations can be achieved through convolutions, including blurring, edge detection, sharpening, embossing and beveling.",
+            "tag": "<feConvolveMatrix>"
+        },
+        {
+            "description": "The <feDiffuseLighting> SVG filter primitive lights an image using the alpha channel as a bump map. The resulting image, which is an RGBA opaque image, depends on the light color, light position and surface geometry of the input bump map.",
+            "tag": "<feDiffuseLighting>"
+        },
+        {
+            "description": "The <feDisplacementMap> SVG filter primitive uses the pixel values from the image from in2 to spatially displace the image from in.",
+            "tag": "<feDisplacementMap>"
+        },
+        {
+            "description": "The <feDistantLight> filter primitive defines a distant light source that can be used within a lighting filter primitive: <feDiffuseLighting> or <feSpecularLighting>.",
+            "tag": "<feDistantLight>"
+        },
+        {
+            "description": "The <feDropShadow> filter primitive creates a drop shadow of the input image. It is a shorthand filter, and is defined in terms of combinations of other filter primitives.",
+            "tag": "<feDropShadow>"
+        },
+        {
+            "description": "The <feFlood> SVG filter primitive fills the filter subregion with the color and opacity defined by flood-color and flood-opacity.",
+            "tag": "<feFlood>"
+        },
+        {
+            "description": "The <feFuncA> SVG filter primitive defines the transfer function for the alpha component of the input graphic of its parent <feComponentTransfer> element.",
+            "tag": "<feFuncA>"
+        },
+        {
+            "description": "The <feFuncB> SVG filter primitive defines the transfer function for the blue component of the input graphic of its parent <feComponentTransfer> element.",
+            "tag": "<feFuncB>"
+        },
+        {
+            "description": "The <feFuncG> SVG filter primitive defines the transfer function for the green component of the input graphic of its parent <feComponentTransfer> element.",
+            "tag": "<feFuncG>"
+        },
+        {
+            "description": "The <feFuncR> SVG filter primitive defines the transfer function for the red component of the input graphic of its parent <feComponentTransfer> element.",
+            "tag": "<feFuncR>"
+        },
+        {
+            "description": "The <feGaussianBlur> SVG filter primitive blurs the input image by the amount specified in stdDeviation, which defines the bell-curve.",
+            "tag": "<feGaussianBlur>"
+        },
+        {
+            "description": "The <feImage> SVG filter primitive fetches image data from an external source and provides the pixel data as output (meaning if the external source is an SVG image, it is rasterized.)",
+            "tag": "<feImage>"
+        },
+        {
+            "description": "The <feMerge> SVG element allows filter effects to be applied concurrently instead of sequentially. This is achieved by other filters storing their output via the result attribute and then accessing it in a <feMergeNode> child.",
+            "tag": "<feMerge>"
+        },
+        {
+            "description": "The feMergeNode takes the result of another filter to be processed by its parent <feMerge>.",
+            "tag": "<feMergeNode>"
+        },
+        {
+            "description": "The <feMorphology> SVG filter primitive is used to erode or dilate the input image. It's usefulness lies especially in fattening or thinning effects.",
+            "tag": "<feMorphology>"
+        },
+        {
+            "description": "The <feOffset> SVG filter primitive allows to offset the input image. The input image as a whole is offset by the values specified in the dx and dy attributes.",
+            "tag": "<feOffset>"
+        },
+        {
+            "description": "The  SVG filter primitive allows to create a point light effect.",
+            "tag": "<fePointLight>"
+        },
+        {
+            "description": "The <feSpecularLighting> SVG filter primitive lights a source graphic using the alpha channel as a bump map. The resulting image is an RGBA image based on the light color. The lighting calculation follows the standard specular component of the Phong lighting model. The resulting image depends on the light color, light position and surface geometry of the input bump map. The result of the lighting calculation is added. The filter primitive assumes that the viewer is at infinity in the z direction.",
+            "tag": "<feSpecularLighting>"
+        },
+        {
+            "description": "The <feSpotLight> SVG filter primitive allows to create a spotlight effect.",
+            "tag": "<feSpotLight>"
+        },
+        {
+            "description": "The <feTile> SVG filter primitive allows to fill a target rectangle with a repeated, tiled pattern of an input image. The effect is similar to the one of a <pattern>.",
+            "tag": "<feTile>"
+        },
+        {
+            "description": "The <feTurbulence> SVG filter primitive creates an image using the Perlin turbulence function. It allows the synthesis of artificial textures like clouds or marble. The resulting image will fill the entire filter primitive subregion.",
+            "tag": "<feTurbulence>"
+        },
+        {
+            "description": "The <filter> SVG element serves as container for atomic filter operations. It is never rendered directly. A filter is referenced by using the filter attribute on the target SVG element or via the filter CSS property.",
+            "tag": "<filter>"
+        },
+        {
+            "description": "The <font> SVG element defines a font to be used for text layout.",
+            "tag": "<font>"
+        },
+        {
+            "description": "The <font-face> SVG element corresponds to the CSS @font-face rule. It defines a font's outer properties.",
+            "tag": "<font-face>"
+        },
+        {
+            "description": "The <font-face-format> SVG element describes the type of font referenced by its parent <font-face-uri>.",
+            "tag": "<font-face-format>"
+        },
+        {
+            "description": "The <font-face-name> element points to a locally installed copy of this font, identified by its name.",
+            "tag": "<font-face-name>"
+        },
+        {
+            "description": "The <font-face-src> SVG element corresponds to the src descriptor in CSS @font-face rules. It serves as container for <font-face-name>, pointing to locally installed copies of this font, and <font-face-uri>, utilizing remotely defined fonts.",
+            "tag": "<font-face-src>"
+        },
+        {
+            "description": "The <font-face-uri> SVG element points to a remote definition of the current font.",
+            "tag": "<font-face-uri>"
+        },
+        {
+            "description": "The <foreignObject> SVG element allows for inclusion of a foreign XML namespace which has its graphical content drawn by a different user agent. The included foreign graphical content is subject to SVG transformations and compositing.",
+            "tag": "<foreignObject>"
+        },
+        {
+            "description": "The <g> SVG element is a container used to group other SVG elements.",
+            "tag": "<g>"
+        },
+        {
+            "description": "A <glyph> defines a single glyph in an SVG font.",
+            "tag": "<glyph>"
+        },
+        {
+            "description": "The glyphRef element provides a single possible glyph to the referencing <altGlyph> substitution.",
+            "tag": "<glyphRef>"
+        },
+        {
+            "description": "The <hatch> SVG element is used to fill or stroke an object using one or more pre-defined paths that are repeated at fixed intervals in a specified direction to cover the areas to be painted.",
+            "tag": "<hatch>"
+        },
+        {
+            "description": "The <hatchpath> SVG element defines a hatch path used by the <hatch> element.",
+            "tag": "<hatchpath>"
+        },
+        {
+            "description": "The <hkern> SVG element allows to fine-tweak the horizontal distance between two glyphs. This process is known as kerning.",
+            "tag": "<hkern>"
+        },
+        {
+            "description": "The <image> SVG element includes images inside SVG documents. It can display raster image files or other SVG files.",
+            "tag": "<image>"
+        },
+        {
+            "description": "The <line> element is an SVG basic shape used to create a line connecting two points.",
+            "tag": "<line>"
+        },
+        {
+            "description": "The <linearGradient> SVG element lets authors define linear gradients to fill or stroke graphical elements.",
+            "tag": "<linearGradient>"
+        },
+        {
+            "description": "The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.",
+            "tag": "<marker>"
+        },
+        {
+            "description": "In SVG, you can specify that any other graphics object or <g> element can be used as an alpha mask for compositing the current object into the background. A mask is defined with the <mask> element. A mask is used/referenced using the mask property.",
+            "tag": "<mask>"
+        },
+        {
+            "description": "The documentation about this has not yet been written; please consider contributing!",
+            "tag": "<mesh>"
+        },
+        {
+            "description": "The documentation about this has not yet been written; please consider contributing!",
+            "tag": "<meshgradient>"
+        },
+        {
+            "description": "The documentation about this has not yet been written; please consider contributing!",
+            "tag": "<meshpatch>"
+        },
+        {
+            "description": "The documentation about this has not yet been written; please consider contributing!",
+            "tag": "<meshrow>"
+        },
+        {
+            "description": "The <metadata> SVG element allows to add metadata to SVG content. Metadata is structured information about data. The contents of <metadata> elements should be elements from other XML namespaces such as RDF, FOAF, etc.",
+            "tag": "<metadata>"
+        },
+        {
+            "description": "The <missing-glyph> SVG element's content is rendered, if for a given character the font doesn't define an appropriate <glyph>.",
+            "tag": "<missing-glyph>"
+        },
+        {
+            "description": "The <mpath> sub-element for the <animateMotion> element provides the ability to reference an external <path> element as the definition of a motion path.",
+            "tag": "<mpath>"
+        },
+        {
+            "description": "The <path> SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.",
+            "tag": "<path>"
+        },
+        {
+            "description": "The <pattern> element defines a graphics object which can be redrawn at repeated x and y-coordinate intervals (\"tiled\") to cover an area.",
+            "tag": "<pattern>"
+        },
+        {
+            "description": "The <polygon> element defines a closed shape consisting of a set of connected straight line segments. The last point is connected to the first point. For open shapes see the <polyline> element.",
+            "tag": "<polygon>"
+        },
+        {
+            "description": "The <polyline> SVG element is an SVG basic shape that creates straight lines connecting several points. Typically a polyline is used to create open shapes as the last point doesn't have to be connected to the first point. For closed shapes see the <polygon> element.",
+            "tag": "<polyline>"
+        },
+        {
+            "description": "The <radialGradient> SVG element lets authors define radial gradients to fill or stroke graphical elements.",
+            "tag": "<radialGradient>"
+        },
+        {
+            "description": "The <rect> element is a basic SVG shape that creates rectangles, defined by their corner's position, their width, and their height.",
+            "tag": "<rect>"
+        },
+        {
+            "description": "A SVG script element is equivalent to the script element in HTML and thus is the place for scripts (e.g., ECMAScript).",
+            "tag": "<script>"
+        },
+        {
+            "description": "The <set> element provides a simple means of just setting the value of an attribute for a specified duration. It supports all attribute types, including those that cannot reasonably be interpolated, such as string and boolean values. The <set> element is non-additive. The additive and accumulate attributes are not allowed, and will be ignored if specified.",
+            "tag": "<set>"
+        },
+        {
+            "description": "The <solidcolor> SVG element lets authors define a single color for use in multiple places in an SVG document. It is also useful as away of animating a palette colors.",
+            "tag": "<solidcolor>"
+        },
+        {
+            "description": "The <stop> SVG element defines the ramp of colors to use on a gradient, which is a child element to either the <linearGradient> or the <radialGradient> element.",
+            "tag": "<stop>"
+        },
+        {
+            "description": "The <style> SVG element allows style sheets to be embedded directly within SVG content. SVG's style element has the same attributes as the corresponding element in HTML (see HTML's <style> element).",
+            "tag": "<style>"
+        },
+        {
+            "description": "The svg element can be used to embed an SVG fragment inside the current document (for example, an HTML document). This SVG fragment has its own viewport and coordinate system.",
+            "tag": "<svg>"
+        },
+        {
+            "description": "The <switch> SVG element evaluates the requiredFeatures, requiredExtensions and systemLanguage attributes on its direct child elements in order, and then processes and renders the first child for which these attributes evaluate to true. All others will be bypassed and therefore not rendered. If the child element is a container element such as a <g>, then the entire subtree is either processed/rendered or bypassed/not rendered.",
+            "tag": "<switch>"
+        },
+        {
+            "description": "The <symbol> element is used to define graphical template objects which can be instantiated by a <use> element. The use of symbol elements for graphics that are used multiple times in the same document adds structure and semantics. Documents that are rich in structure may be rendered graphically, as speech, or as Braille, and thus promote accessibility. Note that a symbol element itself is not rendered. Only instances of a symbol element (i.e., a reference to a symbol by a <use> element) are rendered.",
+            "tag": "<symbol>"
+        },
+        {
+            "description": "The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.",
+            "tag": "<text>"
+        },
+        {
+            "description": "In addition to text drawn in a straight line, SVG also includes the ability to place text along the shape of a <path> element. To specify that a block of text is to be rendered along the shape of a <path>, include the given text within a <textPath> element which includes an href attribute with a reference to a <path> element.",
+            "tag": "<textPath>"
+        },
+        {
+            "description": "Each container element or graphics element in an SVG drawing can supply a <title> element containing a description string where the description is text-only. When the current SVG document fragment is rendered as SVG on visual media, <title> element is not rendered as part of the graphics. However, some user agents may, for example, display the <title> element as a tooltip. Alternate presentations are possible, both visual and aural, which display the <title> element but do not display path elements or other graphics elements. The <title> element generally improves accessibility of SVG documents.",
+            "tag": "<title>"
+        },
+        {
+            "description": "The textual content for a <text> SVG element can be either character data directly embedded within the <text> element or the character data content of a referenced element, where the referencing is specified with a <tref> element.",
+            "tag": "<tref>"
+        },
+        {
+            "description": "Within a <text> element, text and font properties and the current text position can be adjusted with absolute or relative coordinate values by including a <tspan> element.",
+            "tag": "<tspan>"
+        },
+        {
+            "description": "The documentation about this has not yet been written; please consider contributing!",
+            "tag": "<unknown>"
+        },
+        {
+            "description": "The <use> element takes nodes from within the SVG document, and duplicates them somewhere else. The effect is the same as if the nodes were deeply cloned into a non-exposed DOM, and then pasted where the use element is, much like cloned template elements in HTML5. Since the cloned nodes are not exposed, care must be taken when using CSS to style a use element and its hidden descendants. CSS attributes are not guaranteed to be inherited by the hidden, cloned DOM unless you explicitly request it using CSS inheritance.",
+            "tag": "<use>"
+        },
+        {
+            "description": "A view is a defined way to view the image, like a zoom level or a detail view.",
+            "tag": "<view>"
+        },
+        {
+            "description": "The <vkern> SVG element allows to fine-tweak the vertical distance between two glyphs in top-to-bottom fonts. This process is known as kerning.",
+            "tag": "<vkern>"
+        }
+    ],
+    "attributes": [
+        "accent-height",
+        "accumulate",
+        "additive",
+        "alignment-baseline",
+        "allowReorder",
+        "alphabetic",
+        "amplitude",
+        "arabic-form",
+        "ascent",
+        "attributeName",
+        "attributeType",
+        "autoReverse",
+        "azimuth",
+        "baseFrequency",
+        "baseline-shift",
+        "baseProfile",
+        "bbox",
+        "begin",
+        "bias",
+        "by",
+        "calcMode",
+        "cap-height",
+        "class",
+        "clip",
+        "clipPathUnits",
+        "clip-path",
+        "clip-rule",
+        "color",
+        "color-interpolation",
+        "color-interpolation-filters",
+        "color-profile",
+        "color-rendering",
+        "contentScriptType",
+        "contentStyleType",
+        "cursor",
+        "cx",
+        "cy",
+        "d",
+        "decelerate",
+        "descent",
+        "diffuseConstant",
+        "direction",
+        "display",
+        "divisor",
+        "dominant-baseline",
+        "dur",
+        "dx",
+        "dy",
+        "edgeMode",
+        "elevation",
+        "enable-background",
+        "end",
+        "exponent",
+        "externalResourcesRequired",
+        "fill",
+        "fill-opacity",
+        "fill-rule",
+        "filter",
+        "filterRes",
+        "filterUnits",
+        "flood-color",
+        "flood-opacity",
+        "font-family",
+        "font-size",
+        "font-size-adjust",
+        "font-stretch",
+        "font-style",
+        "font-variant",
+        "font-weight",
+        "format",
+        "from",
+        "fr",
+        "fx",
+        "fy",
+        "g1",
+        "g2",
+        "glyph-name",
+        "glyph-orientation-horizontal",
+        "glyph-orientation-vertical",
+        "glyphRef",
+        "gradientTransform",
+        "gradientUnits",
+        "hanging",
+        "height",
+        "href",
+        "horiz-adv-x",
+        "horiz-origin-x",
+        "id",
+        "ideographic",
+        "image-rendering",
+        "in",
+        "in2",
+        "intercept",
+        "k",
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "kernelMatrix",
+        "kernelUnitLength",
+        "kerning",
+        "keyPoints",
+        "keySplines",
+        "keyTimes",
+        "lang",
+        "lengthAdjust",
+        "letter-spacing",
+        "lighting-color",
+        "limitingConeAngle",
+        "local",
+        "marker-end",
+        "marker-mid",
+        "marker-start",
+        "markerHeight",
+        "markerUnits",
+        "markerWidth",
+        "mask",
+        "maskContentUnits",
+        "maskUnits",
+        "mathematical",
+        "max",
+        "media",
+        "method",
+        "min",
+        "mode",
+        "name",
+        "numOctaves",
+        "offset",
+        "opacity",
+        "operator",
+        "order",
+        "orient",
+        "orientation",
+        "origin",
+        "overflow",
+        "overline-position",
+        "overline-thickness",
+        "panose-1",
+        "paint-order",
+        "pathLength",
+        "patternContentUnits",
+        "patternTransform",
+        "patternUnits",
+        "pointer-events",
+        "points",
+        "pointsAtX",
+        "pointsAtY",
+        "pointsAtZ",
+        "preserveAlpha",
+        "preserveAspectRatio",
+        "primitiveUnits",
+        "r",
+        "radius",
+        "refX",
+        "refY",
+        "rendering-intent",
+        "repeatCount",
+        "repeatDur",
+        "requiredExtensions",
+        "requiredFeatures",
+        "restart",
+        "result",
+        "rotate",
+        "rx",
+        "ry",
+        "scale",
+        "seed",
+        "shape-rendering",
+        "slope",
+        "spacing",
+        "specularConstant",
+        "specularExponent",
+        "speed",
+        "spreadMethod",
+        "startOffset",
+        "stdDeviation",
+        "stemh",
+        "stemv",
+        "stitchTiles",
+        "stop-color",
+        "stop-opacity",
+        "strikethrough-position",
+        "strikethrough-thickness",
+        "string",
+        "stroke",
+        "stroke-dasharray",
+        "stroke-dashoffset",
+        "stroke-linecap",
+        "stroke-linejoin",
+        "stroke-miterlimit",
+        "stroke-opacity",
+        "stroke-width",
+        "style",
+        "surfaceScale",
+        "systemLanguage",
+        "tabindex",
+        "tableValues",
+        "target",
+        "targetX",
+        "targetY",
+        "text-anchor",
+        "text-decoration",
+        "text-rendering",
+        "textLength",
+        "to",
+        "transform",
+        "type",
+        "u1",
+        "u2",
+        "underline-position",
+        "underline-thickness",
+        "unicode",
+        "unicode-bidi",
+        "unicode-range",
+        "units-per-em",
+        "v-alphabetic",
+        "v-hanging",
+        "v-ideographic",
+        "v-mathematical",
+        "values",
+        "vector-effect",
+        "version",
+        "vert-adv-y",
+        "vert-origin-x",
+        "vert-origin-y",
+        "viewBox",
+        "viewTarget",
+        "visibility",
+        "width",
+        "widths",
+        "word-spacing",
+        "writing-mode",
+        "x",
+        "x-height",
+        "x1",
+        "x2",
+        "xChannelSelector",
+        "xlink:actuate",
+        "xlink:arcrole",
+        "xlink:href",
+        "xlink:role",
+        "xlink:show",
+        "xlink:title",
+        "xlink:type",
+        "xml:base",
+        "xml:lang",
+        "xml:space",
+        "y",
+        "y1",
+        "y2",
+        "yChannelSelector",
+        "z",
+        "zoomAndPan"
+    ]
+}
